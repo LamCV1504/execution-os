@@ -1,0 +1,33 @@
+{
+  "name": "shell",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rspack serve --mode=development",
+    "build": "rspack build --mode=production"
+  },
+  "dependencies": {
+    "@execution-os/api-client": "workspace:*",
+    "@execution-os/contracts": "workspace:*",
+    "@execution-os/design-system": "workspace:*",
+    "@module-federation/enhanced": "^2.4.0",
+    "@module-federation/runtime": "^2.4.0",
+    "@tanstack/react-router": "^1.170.38",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^2.0.3",
+    "@rspack/core": "^2.0.3",
+    "@rspack/dev-server": "2.0.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "msw": "^2.15.0",
+    "typescript": "~6.0.3"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

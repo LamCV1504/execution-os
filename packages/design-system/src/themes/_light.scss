@@ -1,0 +1,71 @@
+[data-theme="light"] {
+  /* Background */
+  --color-background: #f4f6f8;
+  --color-background-subtle: #eef1f4;
+
+  /* Content */
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-text-inverse: #ffffff;
+
+  /* Border */
+  --color-border: #d9dee5;
+  --color-border-subtle: #e8ebef;
+
+  /* Accent */
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-accent-foreground: #ffffff;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-info: #0284c7;
+
+  /* Surfaces */
+  --surface-solid: rgb(255 255 255 / 0.96);
+
+  --surface-glass: rgb(255 255 255 / 0.42);
+  --surface-glass-hover: rgb(255 255 255 / 0.52);
+  --surface-glass-border: rgb(255 255 255 / 0.45);
+
+  --surface-frost: rgb(255 255 255 / 0.72);
+  --surface-frost-hover: rgb(255 255 255 / 0.8);
+  --surface-frost-border: rgb(255 255 255 / 0.58);
+
+  /* Effects */
+  --surface-blur-glass: 18px;
+  --surface-blur-frost: 28px;
+
+  --shadow-sm:
+    0 1px 2px rgb(15 23 42 / 0.06);
+
+  --shadow-md:
+    0 8px 24px rgb(15 23 42 / 0.1);
+
+  --shadow-lg:
+    0 16px 40px rgb(15 23 42 / 0.14);
+
+  --focus-ring: 0 0 0 3px rgb(37 99 235 / 0.28);
+
+    /* Button */
+  --button-secondary-background: #ffffff;
+  --button-secondary-background-hover: #f8fafc;
+  --button-secondary-foreground: #111827;
+  --button-secondary-border: #d9dee5;
+
+    /* Input */
+  --input-background: #ffffff;
+  --input-foreground: #111827;
+  --input-placeholder: #6b7280;
+
+  --input-border: #d9dee5;
+  --input-border-hover: #9ca3af;
+  --input-focus-border: #2563eb;
+
+  --input-invalid-border: #dc2626;
+  --input-invalid-focus-ring: rgb(220 38 38 / 0.24);
+}
+

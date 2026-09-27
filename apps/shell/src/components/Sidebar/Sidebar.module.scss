@@ -1,0 +1,45 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 100%;
+  padding: 16px 12px;
+  border-right: 1px solid var(--color-border);
+  background: var(--surface-background);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sectionLabel {
+  padding: 8px 12px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 12px;
+  border-radius: 8px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+.item:hover {
+  background: var(--surface-hover);
+  color: var(--color-text-primary);
+}
+
+.active {
+  background: var(--surface-active);
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,38 @@
+.surface {
+  border-radius: var(--radius-lg);
+}
+
+.solid {
+  background: var(--surface-solid);
+  border: 1px solid var(--color-border-subtle);
+}
+
+.glass {
+  background: var(--surface-glass);
+  border: 1px solid var(--surface-glass-border);
+  backdrop-filter: blur(var(--surface-blur-glass))
+    saturate(135%);
+  -webkit-backdrop-filter: blur(var(--surface-blur-glass))
+    saturate(135%);
+  box-shadow: var(--shadow-sm);
+}
+
+.frost {
+  background: var(--surface-frost);
+  border: 1px solid var(--surface-frost-border);
+  backdrop-filter: blur(var(--surface-blur-frost))
+    saturate(140%);
+  -webkit-backdrop-filter: blur(var(--surface-blur-frost))
+    saturate(140%);
+  box-shadow: var(--shadow-md);
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  .glass {
+    background: var(--surface-frost);
+  }
+
+  .frost {
+    background: var(--surface-solid);
+  }
+}

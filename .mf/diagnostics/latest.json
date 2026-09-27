@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"/home/lamcv/.nvm/versions/node/v20.19.2/bin/node /home/lamcv/Downloads/a/execution-os/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/bin/tsc --project /home/lamcv/Downloads/a/execution-os/apps/planning/node_modules/.federation/tsconfig.26929f5a0ad3f2f116b57cf7bd070ed1.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "/home/lamcv/.nvm/versions/node/v20.19.2/bin/node /home/lamcv/Downloads/a/execution-os/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/bin/tsc --project /home/lamcv/Downloads/a/execution-os/apps/planning/node_modules/.federation/tsconfig.26929f5a0ad3f2f116b57cf7bd070ed1.json"
+    },
+    "timestamp": 1789726318167
+  }
+}

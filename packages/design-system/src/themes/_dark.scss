@@ -1,0 +1,82 @@
+[data-theme="dark"] {
+  /* Background */
+  --color-background: #0b1120;
+  --color-background-subtle: #111827;
+
+  /* Content */
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #0f172a;
+
+  /* Border */
+  --color-border: #334155;
+  --color-border-subtle: #1e293b;
+
+  /* Accent */
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+  --color-accent-foreground: #0f172a;
+
+  /* Status */
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --color-info: #38bdf8;
+
+  /* Surfaces */
+  --surface-solid: rgb(15 23 42 / 0.96);
+
+  --surface-glass: rgb(15 23 42 / 0.48);
+  --surface-glass-hover: rgb(15 23 42 / 0.6);
+  --surface-glass-border: rgb(255 255 255 / 0.12);
+
+  --surface-frost: rgb(15 23 42 / 0.74);
+  --surface-frost-hover: rgb(15 23 42 / 0.82);
+  --surface-frost-border: rgb(255 255 255 / 0.16);
+
+  /* Effects */
+  --surface-blur-glass: 18px;
+  --surface-blur-frost: 28px;
+
+  --shadow-sm:
+    0 1px 2px rgb(0 0 0 / 0.2);
+
+  --shadow-md:
+    0 8px 24px rgb(0 0 0 / 0.28);
+
+  --shadow-lg:
+    0 16px 40px rgb(0 0 0 / 0.38);
+
+  --focus-ring: 0 0 0 3px rgb(96 165 250 / 0.32);
+
+    /* Input */
+  --input-background: #0f172a;
+  --input-foreground: #f8fafc;
+  --input-placeholder: #94a3b8;
+
+  --input-border: #334155;
+  --input-border-hover: #64748b;
+  --input-focus-border: #60a5fa;
+
+  --input-invalid-border: #f87171;
+  --input-invalid-focus-ring: rgb(248 113 113 / 0.24);
+
+    /* Button */
+  --button-secondary-background: #1e293b;
+  --button-secondary-background-hover: #334155;
+  --button-secondary-foreground: #f8fafc;
+  --button-secondary-border: #475569;
+
+    /* Input */
+  --input-background: #0f172a;
+  --input-foreground: #f8fafc;
+  --input-placeholder: #94a3b8;
+
+  --input-border: #334155;
+  --input-border-hover: #64748b;
+  --input-focus-border: #60a5fa;
+
+  --input-invalid-border: #f87171;
+  --input-invalid-focus-ring: rgb(248 113 113 / 0.24);
+}
